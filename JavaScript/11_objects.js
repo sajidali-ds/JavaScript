@@ -77,11 +77,11 @@ const obj2={3:"a",4:"b"}
 //const obj3={obj1,obj2}
 //console.log(obj3) //{ obj1: { '1': 'a', '2': 'b' }, obj2: { '3': 'a', '4': 'b' } }
 
-const obj3={...obj1,...obj2}
-console.log(obj3) //{ '1': 'a', '2': 'b', '3': 'a', '4': 'b' }
+// const obj3={...obj1,...obj2}
+// console.log(obj3) //{ '1': 'a', '2': 'b', '3': 'a', '4': 'b' }
 
-const obj4=Object.assign({},obj1,obj2) //{ '1': 'a', '2': 'b', '3': 'a', '4': 'b' }
-console.log(obj4);
+// const obj4=Object.assign({},obj1,obj2) //{ '1': 'a', '2': 'b', '3': 'a', '4': 'b' }
+// console.log(obj4);
 
 const users=[
     {
@@ -94,12 +94,36 @@ const users=[
     }
 ]
 
-users[1].email
+// users[1].email
 
-console.log(tinderUser)
+// console.log(tinderUser)
 
-console.log(Object.values(tinderUser));
-console.log(Object.keys(tinderUser));
-console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty('isLoggedIn'))//true
-console.log(tinderUser.hasOwnProperty('isLogged'))//false
+// console.log(Object.values(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.entries(tinderUser));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'))//true
+// console.log(tinderUser.hasOwnProperty('isLogged'))//false
+
+const course={
+    coursename:"js",
+    price:999,
+    courseInstructor:"hitesh"
+
+}
+const {courseInstructor}=course
+const {courseInstructor:instructor}=course // use alias
+console.log(courseInstructor) //hitesh
+console.log(instructor) //print using alias same o/p
+
+//JSON STRUCTURE
+// {
+//     "name":"sajid",
+//     "age":20,
+//     "price":"free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
