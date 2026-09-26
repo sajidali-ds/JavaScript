@@ -127,21 +127,30 @@
 // java 3 [ 'js', 'python', 'c++', 'java' ]
 
 
-const myCoding=[
-{
-    languagename:"JavaScript",
-    languageFilename:"js"
-},
-{
-    languagename:"python",
-    languageFilename:"py"
-},
-{
-    languagename:"c++",
-    languageFilename:"cpp"
-}]
+// const myCoding=[
+// {
+//     languagename:"JavaScript",
+//     languageFilename:"js"
+// },
+// {
+//     languagename:"python",
+//     languageFilename:"py"
+// },
+// {
+//     languagename:"c++",
+//     languageFilename:"cpp"
+// }]
 
-myCoding.forEach((item)=>{
-    console.log(item.languagename); // javascript python c++ new new line me
+// myCoding.forEach((item)=>{
+//     console.log(item.languagename); // javascript python c++ new new line me
     
-})
+// })
+
+// const coding=["js","python","java","c++"]
+
+// const value=coding.forEach((item) => {
+//     console.log(item)
+//     return item;
+// })
+// console.log(value); //undefined
+
